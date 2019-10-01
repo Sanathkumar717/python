@@ -26,6 +26,6 @@ call3='9990000001,9330000003,6,ISD'
  
 list_of_call_string=[call,call2,call3]
 print("called_from".ljust(15),"called_to".ljust(15),"call_duration".ljust(15),"call_type".ljust(15))
-Util5=Util()
+
 Util().parse_customer(list_of_call_string)
 
